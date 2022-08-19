@@ -1,0 +1,90 @@
+.container {
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.newCard {
+    width: 25rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.image {
+    border-radius: 1rem;
+}
+
+.isAlive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 0.5rem 0.1rem;
+    width: 30%;
+    background-color: #4DB925;
+}
+
+.isDead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 0.5rem 0.1rem;
+    width: 30%;
+    background-color: firebrick;
+    color: white;
+}
+
+.unknown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 0.5rem 0.1rem;
+    width: 30%;
+    background-color: orangered;
+}
+
+.specieContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.specieIcon {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+
+.charDescriptionContainer {
+    padding: 1rem 1rem;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.height-navbar {
+    height: 14rem;
+}
+
+.header-image {
+    width: 40rem;
+}
